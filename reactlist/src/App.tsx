@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import "./App.css";
 
 interface props {
@@ -20,7 +20,7 @@ items({ id: 1, description: "Passports", quantity: 1, packed: true });
 items({ id: 2, description: "Socks", quantity: 12, packed: false });
 items({ id: 3, description: "Charger", quantity: 3, packed: true });
 console.log(addItems);
-*/
+
 export default function App() {
   const [items, setItems] = useState([]);
   function handleAddItems(item) {
@@ -143,3 +143,4 @@ function Stats() {
     </footer>
   );
 }
+*/
